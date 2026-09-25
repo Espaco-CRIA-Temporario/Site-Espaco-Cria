@@ -38,6 +38,22 @@ header .logo img{
     display: block;
 }
 
+header .logo .tagstopo {
+    margin-top: 25px;
+    text-align: center;
+}
+
+main {
+    padding: 30px 0;
+}
+
+.caixa-sobre {
+}
+
+.caixa-sobre h2 {
+    text-align: center;
+}
+
 /* Conf. Desktop */
 header .menu-desktop nav ul{
     list-style-type: none;
