@@ -8,7 +8,7 @@
 }
 
 body{
-    background-image: url("FRONTEND/imagens/fundo.png");
+    background-image: url("../imagens/fundo.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -23,17 +23,19 @@ body{
 /* Interface do Heaver */
 header{
     width: 100%;
-    padding: 10px 0;
+    padding: 20px 0 10px 0;
 }
 
 header .interface{
     display: flex;
-    justify-content: space-evenly;
+    gap: 15px;
     align-items: center;
+    flex-direction: column;
 }
 
 header .logo img{
     max-width: 120px;
+    display: block;
 }
 
 /* Conf. Desktop */
@@ -43,14 +45,14 @@ header .menu-desktop nav ul{
 
 header .menu-desktop nav ul li{
     display: inline-block;
-    margin: 0 40px;
+    margin: 0 20px;
 }
 
 header .menu-desktop nav ul li a{
     color: rgb(0, 0, 0);
     text-decoration: none;
     display: inline-block;
-    transition: 2.s;
+    transition: 2.0;
 }
 
 .menu-desktop nav a:hover{
