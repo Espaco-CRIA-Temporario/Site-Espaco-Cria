@@ -16,7 +16,7 @@ body{
 }
 
 .interface{
-    max-width: 1200px;
+    max-width: 520px;
     margin: 0 auto;
 }
 
@@ -34,7 +34,7 @@ header .interface{
 }
 
 header .logo img{
-    max-width: 120px;
+    max-width: 520px;
     display: block;
 }
 
