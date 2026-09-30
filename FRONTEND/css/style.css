@@ -43,6 +43,11 @@ header .logo .tagstopo {
     text-align: center;
 }
 
+header .logo p::selection {
+    background-color: yellow;
+    color: black;
+}
+
 main {
     padding: 30px 0;
 }
