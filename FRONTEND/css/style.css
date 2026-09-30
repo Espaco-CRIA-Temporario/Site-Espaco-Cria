@@ -54,7 +54,10 @@ main {
     margin-right: auto;
     margin-top: 20px;
     border: 4px solid transparent;
-    border-image: linear-gradient(70deg, rgb(0, 0, 198), red, green, , yellow) 1;}
+    border-image: linear-gradient(70deg, rgb(0, 0, 198), red, green, yellow) 2;
+    width: 800px;
+
+}
 
 .caixa-sobre h2 {
     text-align: center;
