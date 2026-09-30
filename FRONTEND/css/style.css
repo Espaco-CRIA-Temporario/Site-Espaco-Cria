@@ -67,6 +67,7 @@ main {
     line-height: 1.7;
     text-align: center;
     color: #333333;
+    text-wrap: balance;
 }
 
 .caixa-sobre h2 {
