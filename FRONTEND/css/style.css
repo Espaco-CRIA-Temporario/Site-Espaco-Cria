@@ -59,6 +59,16 @@ main {
 
 }
 
+.caixa-sobre p {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin: 10px;
+    line-height: 1.7;
+    text-align: center;
+    color: #333333;
+}
+
 .caixa-sobre h2 {
     text-align: center;
 }
