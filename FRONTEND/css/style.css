@@ -85,23 +85,24 @@ main {
     text-align: center;
 }
 
-/* Cards Retráteis */
-.secao-retratil {
+/* Cards*/
+.secao-cards {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.card-retratil {
+.cards {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     overflow: hidden;
     transition: all 0.3s ease;
     border-left: 5px solid rgb(0, 0, 198);
+    margin-top: 20px;
 }
 
-.card-cabecalho {
+.card-btn {
     width: 100%;
     padding: 18px 20px;
     background: transparent;
@@ -117,16 +118,10 @@ main {
     text-align: left;
 }
 
-.card-cabecalho:hover {
+.card-btn:hover {
     background-color: #f8f9fa;
 }
 
-.card-cabecalho .icone {
-    font-size: 1.3rem;
-    font-weight: 700;
-    transition: transform 0.3s ease;
-    color: rgb(0, 0, 198);
-}
 
 .card-conteudo {
     max-height: 0;
@@ -141,12 +136,12 @@ main {
     line-height: 1.6;
 }
 
-.card-retratil.ativo .card-conteudo {
+.cards.ativo .card-conteudo {
     max-height: 300px;
     padding-bottom: 20px;
 }
 
-.card-retratil.ativo .card-cabecalho .icone {
+.cards.ativo .card-cabecalho .icone {
     transform: rotate(45deg);
 }
 
