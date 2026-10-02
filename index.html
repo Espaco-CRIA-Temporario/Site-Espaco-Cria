@@ -19,29 +19,35 @@
         <div class="interface"> 
             <!-- Logo -->
             <section class="logo">
-                <img src="FRONTEND\imagens\cria logo.png" alt="logo do site">
+                <img src="FRONTEND/imagens/cria logo.png" alt="logo do site">
                 <p class="tagstopo">Tecnologia • Criatividade • Inovação • Produtividade</p>
-            </section>
-            <main>
-                <!-- caixa sobre o espaço cria-->
-                <div class="caixa-sobre">
-                    <h2>O que é o Espaço CRIA?</h2>
-                    <p>O Espaço CRIA é um ambiente voltado para tecnologia, inovação, criatividade e desenvolvimento de projetos.</p>
-                    <p>É um espaço onde ideias podem sair do papel e se transformar em projetos, experiências e soluções. Aqui, os participantes têm a oportunidade de aprender na prática, explorar novas tecnologias, desenvolver habilidades e trabalhar de forma colaborativa.</p>
-                    <p>Mais do que aprender a utilizar ferramentas, o Espaço CRIA busca estimular a criatividade, a autonomia, a curiosidade e a capacidade de transformar problemas em novas possibilidades.</p>
-                    <p></p>
-                </div>
-            </main>
-
-            <!-- Menu -->
-            <!-- Menu para Computadores -->
-            <section class="menu-desktop">
-                <div class="caixa">
-                    <button></button>
-                </div>
             </section>
         </div>
     </header>
+    <main>
+        <div class="interface">
+            <!-- Caixa Sobre o Espaço Cria -->
+            <div class="caixa-sobre">
+                <h2>O que é o Espaço CRIA?</h2>
+                <p>O Espaço CRIA é um ambiente voltado para tecnologia, inovação, criatividade e desenvolvimento de projetos.</p>
+                <p>É um espaço onde ideias podem sair do papel e se transformar em projetos, experiências e soluções. Aqui, os participantes têm a oportunidade de aprender na prática, explorar novas tecnologias, desenvolver habilidades e trabalhar de forma colaborativa.</p>
+                <p>Mais do que aprender a utilizar ferramentas, o Espaço CRIA busca estimular a criatividade, a autonomia, a curiosidade e a capacidade de transformar problemas em novas possibilidades.</p>
+            </div>
+
+            <!-- Cards de informações do CRIA -->
+            <section class="secao-retratil">
+                <div class="card-retratil">
+                    <button class="card-cabecalho" onclick="toggleCard(this)">
+                        <span>Objetos & Ferramentas</span>
+                        <span class="icone">+</span>
+                    </button>
+                    <div class="card-conteudo">
+                        <p>Aqui você encontra impressoras 3D, kits de robótica, ferramentas manuais e computadores preparados para modelagem e programação.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
 
     <script src="javascript/script.js"></script>
 </body>
