@@ -127,6 +127,7 @@ main {
     overflow: hidden;
     padding: 0 20px;
     transition: max-height 0.35s ease, padding 0.35s ease;
+    max-height: 0;
 }
 
 .card-conteudo p {
@@ -164,7 +165,7 @@ main {
 }
 
 .cards.ativo .card-conteudo {
-    max-height: 300px;
+    max-height: 1000px;
     padding-bottom: 20px;
 }
 
