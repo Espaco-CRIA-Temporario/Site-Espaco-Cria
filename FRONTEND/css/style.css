@@ -142,12 +142,14 @@ main {
     font-size: 1.2rem;
     margin-bottom: 10px;
     text-align: center;
+    margin-top: 15px;
 }
 
 .card-conteudo ul {
     list-style-type: disc;
     padding-left: 20px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .card-conteudo li {
@@ -155,6 +157,7 @@ main {
     color: #4a4a4a;
     font-size: 0.95rem;
     line-height: 1.6;
+    margin-top: 15px;
 }
 
 .ladoalado img {
