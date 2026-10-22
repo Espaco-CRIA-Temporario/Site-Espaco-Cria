@@ -164,7 +164,8 @@ main {
     display: block;
     margin-right: auto;
     size: auto;
-
+    height: 300px;
+    width: 500px;
 }
 
 .cards.ativo .card-conteudo {
