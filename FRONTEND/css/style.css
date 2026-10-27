@@ -166,7 +166,8 @@ main {
     size: auto;
     height: 300px;
     width: 500px;
-    border: 4px dashed blue;
+    border: 6px ridge rgb(98, 98, 236);
+    border-radius: 10px;
 }
 
 .cards.ativo .card-conteudo {
